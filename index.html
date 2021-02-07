@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <main class="main">
+        <div class="contenedor">
+            
+            <div class="info">
+                <figure >
+                    <img src="./img/kisspng-jacob-co-astronomy-star-chart-sky-tourbillon-platinum-safflower-three-dimensional-5af2dd414fbf97.3826146615258657933267.png" class="jpg">
+                </figure>
+                <div class="nombre"><h3>Jacob & co <br> ASTRONOMIA SKY ROSE GOLD</h3></div>
+                <div class="precio"><h2>$446.190</h2></div>
+            </div>
+
+            <div class="payment">
+    
+                <form id="checkout">
+
+                        <input class="card" id="visa" type="button" name="card" >
+                        <input class="card" id="mastercard" type="button" name="card" >
+                    
+                        <label for="cc-number">
+                            <span>Número de tarjeta</span>
+                            <input type="number" id="cc-number" autocomplete="cc-number" required>
+                        </label>
+                        <br>
+                        <label for="cc-holder">
+                            <span>Nombre y apellido</span>
+                            <input type="text" id="cc-holder" autocomplete="cc-additional-name" required>
+                        </label>
+                        <br>
+                        <div class="cc-juntos">
+                            <label for="cc-exp">
+                                <span>Fecha de expiración</span>
+                                <br>
+                                <input type="text" placeholder="MM / YY" maxlength='5' id="cc-exp" autocomplete="cc-exp" required>
+                            </label>
+                            <br>
+                            <label for="cc-csc">
+                                <span>Código de seguridad</span>
+                                <br>
+                                <input type="text" maxlength='5' id="cc-csc" autocomplete="cc-csc" required>
+                            </label>
+                         </div>
+                        <br>
+                        <label>
+                        <input  class="comprar"  type="submit" value="Comprar" >
+                        </label>
+                    
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
